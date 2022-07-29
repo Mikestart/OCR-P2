@@ -1,0 +1,35 @@
+
+* {
+  color: black;
+}
+
+div {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid red;
+  background: rgb(0, 255, 0);
+  text-shadow: 200px;
+  color: red;
+}
+
+div.content-box {
+  box-sizing: content-box;
+}
+
+.color {
+  background-color: azure;
+}
+
+#color {
+  margin-top: 1em;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+ }
+
+ p {
+  font-family: 'Raleway', sans-serif;
+ }
