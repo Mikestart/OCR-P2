@@ -1,16 +1,17 @@
 
-* {
-  color: black;
-}
+/* * {
+  color: rgb(226, 13, 13);
+} */
 
 div {
   width: 160px;
   height: 80px;
   padding: 20px;
-  border: 8px solid red;
+  border: 8px solid rgb(0, 55, 255);
   background: rgb(0, 255, 0);
   text-shadow: 200px;
-  color: red;
+  color: rgb(31, 31, 31);
+  text-decoration-color: blue;
 }
 
 div.content-box {
