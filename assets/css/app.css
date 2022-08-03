@@ -1,24 +1,24 @@
 
-/* * {
-  color: rgb(226, 13, 13);
-} */
+* {
+  box-sizing: border-box;
+}
 
 div {
-  width: 160px;
-  height: 150px;
-  padding: 20px;
-  border: 8px solid rgb(0, 55, 255);
-  background: rgb(228, 176, 166);
-  text-shadow: 200px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: 2px solid rgb(130, 236, 130);
+  background: rgb(255, 255, 255);
+  text-shadow: aqua;
   color: rgb(31, 31, 31);
-  text-decoration: wavy underline;
+  text-decoration: none;
   text-decoration-color: rgb(202, 2, 2);
 
 }
 
-div.content-box {
+/* div.content-box {
   box-sizing: content-box;
-}
+} */
 
 .color {
   background-color: azure;
@@ -37,6 +37,35 @@ h1 {
   font-family: 'Raleway', sans-serif;
  }
 
- a:hover {
-  background-color: gold;
+header {
+
+display: flex;
+
+}
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+img {
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav a.active {
+  color: blue;
 }
