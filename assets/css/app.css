@@ -1,21 +1,23 @@
 
 * {
-  color: black;
+  box-sizing: border-box;
 }
 
-div {
-  width: 160px;
-  height: 80px;
-  padding: 20px;
-  border: 8px solid red;
-  background: rgb(0, 255, 0);
-  text-shadow: 200px;
-  color: red;
+div.div-booki {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: 2px solid green;
+  background: rgb(255, 255, 255);
+  color: rgb(31, 31, 31);
+  text-decoration: none;
+  text-decoration-color: rgb(202, 2, 2);
+
 }
 
-div.content-box {
+/* div.content-box {
   box-sizing: content-box;
-}
+} */
 
 .color {
   background-color: azure;
@@ -31,5 +33,79 @@ h1 {
  }
 
  p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
  }
+
+header {
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background-color: #99F;
+
+}
+
+.tagline {
+  height: auto;
+  width: auto;
+}
+
+form button:hover {
+  background-color: rgb(113, 65, 225);
+  color: rgb(206, 197, 35);
+  }
+
+form button {
+  color: rgb(247, 247, 249);
+  background-color: rgb(171, 115, 10);
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  border: 2px solid green
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+img {
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav a.active {
+  color: blue;
+}
+
+.h-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(234, 235, 231);
+}
+
+.a-container {
+  background-color: rgb(247, 228, 228);
+  margin-top: 1px;
+}
+
+.Card-1 {
+  border-radius: 50px;
+  background-color: rgb(7, 132, 241);
+  height: 20px;
+  width: 20px;
+}
+
+.populaire {
+  background-color: rgb(154, 158, 157);
+}
