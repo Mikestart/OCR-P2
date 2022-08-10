@@ -33,7 +33,7 @@ h1 {
  }
 
  p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
  }
 
 header {
@@ -41,10 +41,24 @@ header {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-
+background-color: #99F;
 
 }
 
+.tagline {
+  height: auto;
+  width: auto;
+}
+
+form button:hover {
+  background-color: rgb(113, 65, 225);
+  color: rgb(206, 197, 35);
+  }
+
+form button {
+  color: rgb(247, 247, 249);
+  background-color: rgb(171, 115, 10);
+}
 
 .topnav {
   background-color: white;
@@ -71,4 +85,27 @@ img {
 
 .topnav a.active {
   color: blue;
+}
+
+.h-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(234, 235, 231);
+}
+
+.a-container {
+  background-color: rgb(247, 228, 228);
+  margin-top: 1px;
+}
+
+.Card-1 {
+  border-radius: 50px;
+  background-color: rgb(7, 132, 241);
+  height: 20px;
+  width: 20px;
+}
+
+.populaire {
+  background-color: rgb(154, 158, 157);
 }

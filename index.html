@@ -2,48 +2,198 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" media="screen" type="text/css" href="./assets/css/app.css" />
-    <script src="https://kit.fontawesome.com/725ed0d3a0.js" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,400;1,600&display=swap');
-        </style>
+  <script src="https://kit.fontawesome.com/725ed0d3a0.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" type="text/css" href="./assets/css/app.css" />
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,400;1,600&display=swap');
+
+  </style>
 </head>
 
-  <header>
-    <div class="div-booki">
-      <img src="assets/images/logo/Booki.png" alt="Booki.png">
-    </div>
+<header>
+  <div class="div-booki">
+    <img src="assets/images/logo/Booki.png" alt="Booki.png">
+  </div>
 
-    <div class="topnav">
+  <div class="topnav">
     <a class="active" href="#hebergement">Hebergement</a>
     <a href="#activités">Activités</a>
-    </div>
-  </header>
+  </div>
+</header>
 
-
-<body>
-
+<section>
+  <div class="tagline">
     <h1>Trouver votre hébergement pour des vacances de rêves</h1>
+    <p>En plein centre ville ou en pleine nature</p>
+  </div>
 
-    <form>
-      <label for="fname"></label><br>
-      <input type="text" id="fname" name="fname" value="Marseille"><br>
-      <input type="submit" value="Rechercher">
-    </form>
+  <form>
+    <span><button><i class="fa-solid fa-location-dot"></i></button></span>
+    <label for="fname"></label>
+    <input type="text" id="fname" name="fname" value="Marseille, France">
+    <button type="submit" value="Rechercher">Submit</button>
+  </form>
 
-    <a href="https://www.google.com">Lien vers google</a>
+  <div>
+    <ul>
+      <h2>Filtres</h2>
+      <li>Economique</li>
+      <li>Familial</li>
+      <li>Romantique</li>
+      <li>Animaux autorisés</li>
+    </ul>
+  </div>
+  <div>
+    <p>'i' Plus que 500 logements sont disponibles dans cette ville</p>
+  </div>
+</section>
 
-    <p>A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
-</body>
+<section class="h-container" >
+  <h1>Hébergements à Marseille</h1>
+  <article>
+    <a href="#" class="Card-1">
+      <img src="./assets/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus">
+      <h3 class="name">Auberge La Cannebière</h3>
+      <p>Nuit à partir de 25€</p>
+    </a>
+    </article>
+  <article>
+    <a href="#" class="Card-1">
+      <img src="./assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port">
+      <h3 class="name">Hôtel du port</h3>
+      <p>Nuit à partir de 52€</p>
+    </a>
+  </article>
 
-  <!-- button tag starts from here -->
-  <button type = "button" onclick =
-  "alert('Welcome to GeeksforGeeks')">
-  Click Here
-</button>
-</html>
+  <article>
+    <a href="#" class="Card-3">
+      <img src="./assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="mouettes">
+      <h3 class="name">Hôtel Les Mouettes</h3>
+      <p>Nuit à partir de 76€</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="#" class="Card-4">
+      <img src="./assets/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="mer">
+      <h3 class="name">Hôtel de La Mer</h3>
+      <p>Nuit à partir de 46€</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="#" class="Card-5">
+      <img src="./assets/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="panier">
+      <h3 class="name">Auberge Le Panier</h3>
+      <p>Nuit à partir de 23€</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="#" class="Card-6">
+      <img src="./assets/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="amina">
+      <h3 class="name">Hotel Chez Amina</h3>
+      <p>Nuit à partir de 96€</p>
+    </a>
+  </article>
+
+  <div class="populaire">
+    <h1>Les plus populaires</h1>
+    <article>
+      <a href="#" class="Card-7">
+        <img src="./assets/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="emile">
+        <h3 class="name">Hotel soleil du matin</h3>
+        <p>Nuit à partir de 128€</p>
+      </a>
+    </article>
+    <article>
+      <a href="#" class="Card-8">
+        <img src="./assets/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="aw">
+        <h3 class="name">Au coeur de l'eau Chambres d'hôtes</h3>
+        <p>Nuit à partir de 71€</p>
+      </a>
+    </article>
+    <article>
+      <a href="#" class="Card-9">
+        <img src="./assets/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="feb">
+        <h3 class="name">Hôtel Tout blei et Blanc</h3>
+        <p>Nuit à partir de 68€</p>
+      </a>
+    </article>
+  </div>
+
+</section>
+
+<section class="a-container">
+  <h1>Activités à Marseille</h1>
+  <article>
+    <a href="#" class="Card-10">
+    <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux-port">
+    <h3 class="name">Vieux Port</h3>
+    </a>
+    </article>
+
+    <article>
+    <a href="#" class="Card-11">
+    <img src="./assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="pomegue">
+    <h3 class="name">Fort de Pomègues</h3>
+    </a>
+  </article>
+
+    <article>
+        <a href="#" class="Card-12">
+          <img src="./assets/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Frioul">
+          <h3 class="name">îles du Frioul</h3>
+        </a>
+    </article>
+
+          <article>
+            <a href="#" class="Card-13">
+              <img src="./assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="calanques">
+              <h3 class="name">Parc National des Calanques</h3>
+            </a>
+            </article>
+
+            <article>
+              <a href="#" class="Card-14">
+                <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="notre-dame">
+                <h3 class="name">Notre-Dame-de-la-Garde</h3>
+              </a>
+              </article>
+
+              <article>
+                <a href="#" class="Card-15">
+                  <img src="./assets/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="longchamps">
+                  <h3 class="name">Parc Longchamp</h3>
+                </a>
+                </article>
+    </section>
+
+
+
+<p>Test Font Awesome</p><i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-android"></i>
+
+<footer>
+  <h1>A propos</h1>
+  <ol>
+    <li> <a href="#">Fonctionnement du site</a></li>
+    <li><a href="#">Conditions générales de vente</a></li>
+    <li> <a href="#">Données et confidentialité</a></li>
+  </ol>
+</footer>
+
+<!-- <body>
+        <p> A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+      </body> -->
+
+<!-- button tag starts from here
+    <button type = "button" onclick =
+    "alert('Welcome to Booki')">
+    Trigger alert
+  </button>
+  </html> -->
