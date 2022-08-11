@@ -6,12 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Booki, trouvez l'hébergement pour des vacances de rêve-projet 2 par openclassroom</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,400;1,600&display=swap');
-  </style>
   <link rel="stylesheet" media="screen" type="text/css" href="./assets/css/app.css" />
   <link rel="stylesheet" href="./assets/css/navigation.css">
+  <link rel="stylesheet" href="./assets/css/search.css">
   <script src="https://kit.fontawesome.com/725ed0d3a0.js" crossorigin="anonymous"></script>
 </head>
 
@@ -28,18 +25,21 @@
     </nav>
   </header>
 
-  <section>
-    <section class="tagline">
-      <h1>Trouver votre hébergement pour des vacances de rêves</h1>
+<Section class="tagline-search-bar">
+  <section >
+      <h1>Trouvez votre hébergement  pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
-    </section>
-
-    <form>
-      <span><button><i class="fa-solid fa-location-dot"></i></button></span>
-      <label for="fname"></label>
-      <input type="text" id="fname" name="fname" value="Marseille, France">
-      <button type="submit" value="Rechercher">Submit</button>
-    </form>
+  </section>
+  <section>
+    <div class="loc">
+      <i class="fa-solid fa-location-dot"></i>
+      <form method="post" action="traitement.php">
+      <input class="city" type="search" placeholder="Marseille, France" />
+      </form>
+      <p class="search">Rechercher</p>
+    </div>
+  </section>
+</Section>
 
     <div>
       <ul>
