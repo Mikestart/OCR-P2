@@ -1,0 +1,54 @@
+.the-filters{
+  display: flex;
+  margin: 20px 0 0 6px;
+}
+
+.the-filters h3{
+  margin: 15px 40px 0 30px;
+  font-size: 119%;
+}
+
+.the-filters .filters-icon{
+  display: flex;
+}
+
+.the-filters .filters{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-right: 30px;
+  border: #dfdede 2px solid;
+  border-radius: 30px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.the-filters .filters:hover{
+  transform: scale(1.05);
+}
+
+.the-filters .icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #DEEBFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 112%;
+  color: #0065fc;
+  margin-left: -4px;
+}
+
+.the-filters p{
+  font-weight: 600;
+  font-size: 119%;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.the-filters p:hover{
+  color: #0065fc;
+}
