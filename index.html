@@ -10,10 +10,14 @@
   <link rel="stylesheet" href="./assets/css/navigation.css">
   <link rel="stylesheet" href="./assets/css/search.css">
   <link rel="stylesheet" href="./assets/css/filters.css">
+  <link rel="stylesheet" href="./assets/css/info.css">
+  <link rel="stylesheet" href="./assets/css/card.css">
   <script src="https://kit.fontawesome.com/725ed0d3a0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+  <!-- Header -->
 
   <header>
       <img src="assets/images/logo/Booki.png" alt="Booki.png">
@@ -25,6 +29,8 @@
 
     </nav>
   </header>
+
+  <!-- Search -->
 
 <Section class="tagline-search-bar">
   <section >
@@ -42,29 +48,31 @@
   </section>
 </Section>
 
-    <section class="the-filters">
+<!-- Filters -->
+
+    <section class="filters-section">
       <h3>Filtres</h3>
-      <div class="filters-icon">
-          <div class="filters">
+      <div class="all-filters">
+          <div class="filter">
               <div class="icon">
                   <i class="fas fa-money-bill-wave icone_cercle"></i>
               </div>
                   <p>Economique</p>
           </div>
-          <div class="filters">
+          <div class="filter">
               <div class="icon">
                   <i class="fas fa-child icone_cercle"></i>
               </div>
                   <p>Familial</p>
           </div>
 
-          <div class="filters">
+          <div class="filter">
               <div class="icon">
                   <i class="fas fa-heart icone_cercle"></i>
               </div>
                   <p>Romantique</p>
           </div>
-          <div class="filters">
+          <div class="filter">
               <div class="icon">
                   <i class="fas fa-dog icone_cercle"></i>
               </div>
@@ -74,63 +82,130 @@
   </section>
 
 
+<!-- Info  -->
 
-      <p><i class="fa-solid fa-circle-info"></i> Plus que 500 logements sont disponibles dans cette ville</p>
+  <section class="info-section">
+    <div class="info">
+        <div class="circle-info"><i class="fas fa-info"></i></div>
+        <h2> Plus de 500 logements sont disponibles dans cette ville</h2>
     </div>
   </section>
 
-  <section class="h-container">
-    <section>
+ <!-- Cards -->
+
+  <section class="accommodation-popular-section">
+    <section class="accommodation-marseille">
       <h2>Hébergements à Marseille</h2>
+      <div class="cards">
       <a href="#" class="Card-1">
-        <article>
+        <article class="border-picture">
           <div>
             <img src="./assets/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus">
           </div>
-          <section>
-            <h3 class="name">Auberge La Cannebière</h3>
+          <section class="picture-description">
+            <h4 class="name">Auberge La Cannebière</h3>
             <p>Nuit à partir de <strong>25</strong><span class="currency">€</span></p>
+            <div class="star">
+              <i class="fas fa-star colorblue"></i>
+              <i class="fas fa-star colorblue"></i>
+              <i class="fas fa-star colorblue"></i>
+              <i class="fas fa-star colorblue"></i>
+              <i class="fas fa-star colorgrey"></i>
+          </div>
           </section>
         </article>
       </a>
-      <article>
-        <a href="#" class="Card-1">
+
+      <a href="#" class="Card-2">
+        <article class="border-picture">
           <img src="./assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port">
-          <h3 class="name">Hôtel du port</h3>
+      <section class="picture-description">
+          <h4 class="name">Hôtel du port</h3>
           <p>Nuit à partir de 52€</p>
+          <div class="star">
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorgrey"></i>
+        </div>
         </a>
-      </article>
-      <article>
-        <a href="#" class="Card-3">
+      </section>
+        </article>
+
+      <a href="#" class="Card-3">
+        <article class="border-picture">
           <img src="./assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="mouettes">
-          <h3 class="name">Hôtel Les Mouettes</h3>
+          <section class="picture-description">
+          <h4 class="name">Hôtel Les Mouettes</h3>
           <p>Nuit à partir de 76€</p>
+          <div class="star">
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorgrey"></i>
+        </div>
         </a>
-      </article>
-      <article>
-        <a href="#" class="Card-4">
+          </section>
+        </article>
+
+
+      <a href="#" class="Card-4">
+        <article class="border-picture">
           <img src="./assets/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="mer">
-          <h3 class="name">Hôtel de La Mer</h3>
+          <section class="picture-description">
+          <h4 class="name">Hôtel de La Mer</h3>
           <p>Nuit à partir de 46€</p>
+          <div class="star">
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorgrey"></i>
+        </div>
         </a>
+          </section>
       </article>
-      <article>
-        <a href="#" class="Card-5">
+
+
+      <a href="#" class="Card-5">
+        <article class="border-picture">
           <img src="./assets/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="panier">
-          <h3 class="name">Auberge Le Panier</h3>
+          <section class="picture-description">
+          <h4 class="name">Auberge Le Panier</h3>
           <p>Nuit à partir de 23€</p>
+          <div class="star">
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorgrey"></i>
+        </div>
         </a>
-      </article>
-      <article>
+        </section>
+        </article>
+
         <a href="#" class="Card-6">
+          <article class="border-picture">
           <img src="./assets/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="amina">
-          <h3 class="name">Hotel Chez Amina</h3>
+          <section class="picture-description">
+          <h4 class="name">Hotel Chez Amina</h3>
           <p>Nuit à partir de 96€</p>
+          <div class="star">
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorblue"></i>
+            <i class="fas fa-star colorgrey"></i>
+        </div>
         </a>
+        </section>
+      </div>
       </article>
     </section>
 
-    <section class="populaire">
+    <section class="popular-section">
       <h2>Les plus populaires</h2>
       <article>
         <a href="#" class="Card-7">
@@ -142,7 +217,7 @@
       <article>
         <a href="#" class="Card-8">
           <img src="./assets/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="aw">
-          <h3 class="name">Au coeur de l'eau Chambres d'hôtes</h3>
+          <h4 class="name">Au coeur de l'eau Chambres d'hôtes</h3>
           <p>Nuit à partir de 71€</p>
         </a>
       </article>
@@ -162,7 +237,7 @@
     <article>
       <a href="#" class="Card-10">
         <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux-port">
-        <h3 class="name">Vieux Port</h3>
+        <h4 class="name">Vieux Port</h3>
       </a>
     </article>
 
@@ -204,7 +279,6 @@
 
 
 
-  <p>Test Font Awesome</p><i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-android"></i>
 
   <footer>
     <h1>A propos</h1>
