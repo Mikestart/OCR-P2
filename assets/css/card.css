@@ -1,3 +1,5 @@
+/*main*/
+
 .accommodation-popular-section{
   display: flex;
   margin-top: 30px;
@@ -34,7 +36,7 @@
   background: white;
   margin-bottom: 40px;
   border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   transition: 0.8s;
   padding-bottom: 10px;
 }
@@ -60,7 +62,8 @@
 }
 
 
-/****** popular *******/
+/*popular*/
+
 .popular-section{
   background: #F2F2F2;
   width: 30%;
@@ -68,7 +71,7 @@
   border-radius: 20px;
 }
 
-.popular-section .title-graph{
+.popular-section .title{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -102,7 +105,7 @@
   border-radius: 20px 0 0 20px;
   padding: 3%;
 }
-.popular-section .text-picture{
+.popular-section .description{
   margin-top: 10px;
 }
 
