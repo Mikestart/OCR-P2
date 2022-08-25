@@ -31,8 +31,6 @@
 }
 
 .accommodation-marseille .border-picture{
-  width: 220px;
-  height: auto;
   background: white;
   margin-bottom: 40px;
   border-radius: 20px 20px 20px 20px;
@@ -119,4 +117,23 @@
 .popular-section .colorgrey{
   color: #d6d1d1;
   font-size: 80%;
+}
+
+.popular-section {
+  display: flex;
+  flex-direction:column;
+}
+
+.popular-section article {
+  display: flex;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards a {
+  width: 30%;
 }
