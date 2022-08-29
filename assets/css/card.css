@@ -66,7 +66,6 @@
 .popular-section{
   background: #F2F2F2;
   width: 30%;
-  height: 650px;
   border-radius: 20px;
 }
 
@@ -104,6 +103,12 @@
   border-radius: 20px 0 0 20px;
   padding: 3%;
 }
+
+#bibou {
+  height: 140px;
+  width: 110px;
+}
+
 .popular-section .description{
   margin-top: 10px;
 }
@@ -121,9 +126,8 @@
 }
 
 .cards a {
-  width: 30%;
+  width: 27%;
 }
-
 
 .popular-section {
   display: flex;
