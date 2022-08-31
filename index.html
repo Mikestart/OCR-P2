@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./assets/css/filters.css">
   <link rel="stylesheet" href="./assets/css/info.css">
   <link rel="stylesheet" href="./assets/css/card.css">
+  <link rel="stylesheet" href="./assets/css/activity.css">
   <script src="https://kit.fontawesome.com/725ed0d3a0.js" crossorigin="anonymous"></script>
 </head>
 
@@ -20,78 +21,78 @@
   <!-- Header -->
 
   <header>
-      <img src="assets/images/logo/Booki.png" alt="Booki.png">
+    <img src="assets/images/logo/Booki.png" alt="Booki.png">
     <nav>
       <ul>
         <li><a class="border-blue" href="#accommodation_from_Marseille">Hébergements</a></li>
         <li><a class="border-blue" href="#activity_from_Marseille">Activités</a></li>
-    </ul>
+      </ul>
 
     </nav>
   </header>
 
   <!-- Search -->
 
-<Section class="tagline-search-bar">
-  <section >
-      <h1>Trouvez votre hébergement  pour des vacances de rêve</h1>
+  <Section class="tagline-search-bar">
+    <section>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
-  </section>
-  <section>
-    <div class="loc">
-      <i class="fa-solid fa-location-dot"></i>
-      <form method="post" action="traitement.php">
-      <input class="city" type="search" placeholder="Marseille, France" />
-      </form>
-      <p class="search">Rechercher</p>
+    </section>
+    <section>
+      <div class="loc">
+        <i class="fa-solid fa-location-dot"></i>
+        <form method="post" action="traitement.php">
+          <input class="city" type="search" placeholder="Marseille, France" />
+        </form>
+        <p class="search">Rechercher</p>
+      </div>
+    </section>
+  </Section>
+
+  <!-- Filters -->
+
+  <section class="filters-section">
+    <h3>Filtres</h3>
+    <div class="all-filters">
+      <div class="filter">
+        <div class="icon">
+          <i class="fas fa-money-bill-wave icone_cercle"></i>
+        </div>
+        <p>Economique</p>
+      </div>
+      <div class="filter">
+        <div class="icon">
+          <i class="fas fa-child icone_cercle"></i>
+        </div>
+        <p>Familial</p>
+      </div>
+
+      <div class="filter">
+        <div class="icon">
+          <i class="fas fa-heart icone_cercle"></i>
+        </div>
+        <p>Romantique</p>
+      </div>
+      <div class="filter">
+        <div class="icon">
+          <i class="fas fa-dog icone_cercle"></i>
+        </div>
+        <p>Animaux autorisés</p>
+      </div>
     </div>
   </section>
-</Section>
-
-<!-- Filters -->
-
-    <section class="filters-section">
-      <h3>Filtres</h3>
-      <div class="all-filters">
-          <div class="filter">
-              <div class="icon">
-                  <i class="fas fa-money-bill-wave icone_cercle"></i>
-              </div>
-                  <p>Economique</p>
-          </div>
-          <div class="filter">
-              <div class="icon">
-                  <i class="fas fa-child icone_cercle"></i>
-              </div>
-                  <p>Familial</p>
-          </div>
-
-          <div class="filter">
-              <div class="icon">
-                  <i class="fas fa-heart icone_cercle"></i>
-              </div>
-                  <p>Romantique</p>
-          </div>
-          <div class="filter">
-              <div class="icon">
-                  <i class="fas fa-dog icone_cercle"></i>
-              </div>
-                  <p>Animaux autorisés</p>
-          </div>
-      </div>
-  </section>
 
 
-<!-- Info  -->
+  <!-- Info  -->
 
   <section class="info-section">
     <div class="info">
-        <div class="circle-info"><i class="fas fa-info"></i></div>
-        <h2> Plus de 500 logements sont disponibles dans cette ville</h2>
+      <div class="circle-info"><i class="fas fa-info"></i></div>
+      <h2> Plus de 500 logements sont disponibles dans cette ville</h2>
     </div>
   </section>
 
- <!-- Cards -->
+  <!-- Cards -->
 
   <Section class="accommodation-popular-section">
     <section class="accommodation-marseille">
@@ -274,49 +275,84 @@
 
   <!-- activités -->
 
-  <section class="a-container">
-    <h1>Activités à Marseille</h1>
-    <article>
-      <a href="#" class="Card-10">
-        <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux-port">
-        <h4 class="name">Vieux Port</h3>
-      </a>
-    </article>
+  <section class="activity-section">
+    <h2>Activités à Marseille</h2>
+      <div class="activity-cards">
+        <a href="#" class="Card-10">
+          <article class="border-activity">
+            <div>
+              <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux-port">
+            </div>
+            <div class="text-activity">
+              <h4 class="name">Vieux Port</h3>
+            </div>
+          </article>
+        </a>
 
-    <article>
-      <a href="#" class="Card-11">
-        <img src="./assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="pomegue">
-        <h3 class="name">Fort de Pomègues</h3>
-      </a>
-    </article>
 
-    <article>
-      <a href="#" class="Card-12">
-        <img src="./assets/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Frioul">
-        <h3 class="name">îles du Frioul</h3>
-      </a>
-    </article>
 
-    <article>
-      <a href="#" class="Card-13">
-        <img src="./assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="calanques">
-        <h3 class="name">Parc National des Calanques</h3>
-      </a>
-    </article>
+        <a href="#" class="Card-11">
+          <article class="border-activity">
+            <div><img src="./assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="pomegue">
+            </div>
+            <div class="text-activity">
+              <h3 class="name">Fort de Pomègues</h3>
+            </div>
+          </article>
+        </a>
 
-    <article>
-      <a href="#" class="Card-14">
-        <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="notre-dame">
-        <h3 class="name">Notre-Dame-de-la-Garde</h3>
-      </a>
-    </article>
 
-    <article>
-      <a href="#" class="Card-15">
-        <img src="./assets/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="longchamps">
-        <h3 class="name">Parc Longchamp</h3>
-      </a>
-    </article>
+
+        <a href="#" class="Card-12">
+          <article class="border-activity">
+            <div>
+              <img src="./assets/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Frioul">
+            </div>
+            <div class="text-activity">
+              <h3 class="name">îles du Frioul</h3>
+            </div>
+          </article>
+        </a>
+
+
+
+        <a href="#" class="Card-13">
+          <article class="border-activity">
+            <div>
+              <img src="./assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="calanques">
+            </div>
+            <div class="text-activity">
+              <h3 class="name">Parc National des Calanques</h3>
+            </div>
+          </article>
+        </a>
+
+
+
+        <a href="#" class="Card-14">
+          <article class="border-activity">
+            <div>
+              <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="notre-dame">
+            </div>
+            <div class="text-activity">
+              <h3 class="name">Notre-Dame-de-la-Garde</h3>
+            </div>
+          </article>
+        </a>
+
+
+
+        <a href="#" class="Card-15">
+          <article class="border-activity">
+            <div>
+              <img src="./assets/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="longchamps">
+            </div>
+            <div class="text-activity">
+              <h3 class="name">Parc Longchamp</h3>
+            </div>
+          </article>
+        </a>
+      </div>
   </section>
 
 
@@ -331,14 +367,5 @@
     </ul>
   </footer>
 
-</body>
-  <!-- <body>
-        <p> A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
-      </body> -->
-
-  <!-- button tag starts from here
-    <button type = "button" onclick =
-    "alert('Welcome to Booki')">
-    Trigger alert
-  </button> -->
+</body> 
 </html>
