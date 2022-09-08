@@ -39,7 +39,7 @@ h1 {
  }
 
  p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
  }
 
  body {
@@ -72,7 +72,7 @@ form button:hover {
 
 
 
-img {
+/* img {
   height: 100px;
   text-align: center;
   padding: 2px;
@@ -95,4 +95,4 @@ img {
 
 .populaire {
   background-color: rgb(154, 158, 157);
-}
+} */

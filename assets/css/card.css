@@ -21,6 +21,7 @@
   flex-wrap: wrap;
 }
 
+
 .accommodation-marseille img{
   object-fit: cover;
   width: 100%;
@@ -28,6 +29,10 @@
   border-radius: 20px 25px 0 0;
   padding-right: 10px;
   margin: 5px 0 0 5px;
+}
+
+#test {
+  width: 17%;
 }
 
 .accommodation-marseille .border-picture{
@@ -60,6 +65,12 @@
   color: #d6d1d1;
 }
 
+/* .accommodation-marseille span {
+  margin-left: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 113%;
+} */
 
 /*popular*/
 
@@ -104,10 +115,6 @@
   padding: 3%;
 }
 
-#bibou {
-  height: 140px;
-  width: 110px;
-}
 
 .popular-section .description{
   margin-top: 10px;
@@ -142,4 +149,16 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.currency {
+margin: 0;
+font-weight: bold;
+}
+
+.more {
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 113%;
+  margin-left: 40px;
 }
