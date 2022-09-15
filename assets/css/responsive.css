@@ -1,21 +1,17 @@
-@media screen and (min-width:992px) and (max-width: 1200px){
+@media screen and (min-width:992px) and (max-width: 1500px){
+
+
     .tagline-search-bar .fa-search{
         display: none;
       }
-
 }
 
-@media screen and (min-width: 800px) and (max-width: 991px){
-
- 
-@media screen and (max-width: 799px){
-    
-}
-
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
     *{
       box-sizing: content-box;
     }
+
+    /* search */
     .tagline-search-bar input{
         width: 220px;
         font-size: 100%;
@@ -54,6 +50,135 @@
       header .border-blue:hover{
         border-bottom: #0065fc solid 3px;
         padding-bottom: 20px;
-        border-top: none;
-}
+        border-top: none;   
+      }
+
+        /*filters*/
+    .filters-section .all-filters{
+      margin-left: 20px;
+    }
+    .filters-section p{
+      font-size: 100%;
+    }
+    .filters-section{
+      flex-direction: column;
+    }
+    .filters-column{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .filters-section .filter{
+      margin: 10px 20px 0 0;
+      padding-right: 10px;
+    }
+
+     /*info*/
+     .info-section h2{
+        font-size: 95%;
+        margin-left: 10px;
+        margin-bottom: 5px;
+
+      }
+
+      .accommodation-popular-section{
+        margin-left: 0;
+        flex-direction: column-reverse;
+      }
+
+      /* accommodation-section*/
+    .accommodation-marseille .cards{
+        flex-direction: column;
+        width: 100%;
+      }
+      .accommodation-marseille span{
+        margin-left: 10px;
+      }
+      .accommodation-marseille{
+        width: 330%;
+        margin-right: 0%;
+        padding: 5%;
+        height: auto;
+        background-color: white
+      }
+      .accommodation-marseille h2{
+        margin: 25px 0;
+      }
+     .accommodation-marseille .border-picture{
+        width: 95%;
+        margin-bottom: 20px;
+      }
+     .accommodation-marseille img{
+        object-fit: cover;
+      }
+     .accommodation-marseille .border-picture{
+        width: 100%;
+      }
+      
+     .accommodation-marseille .cards {
+        justify-content: start;
+    }
+        /*popular section*/
+
+    .popular-section{
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 30px 5%;
+        border-radius: 0;
+
+    }
+    .popular-section .title{
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .popular-section .border-popular{
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .popular-section img{
+        height: 140px;
+        width: 250px;
+        padding: 1%;
+    }
+    .popular-section .description{
+        margin-left: 30px;
+    }
+    .popular-section h3{
+        font-size: 119%;
+    }
+    .popular-section p{
+        font-size: 100%;
+    }
+    .popular-section .star{
+        font-size: 100%;
+    }
+
+    @media screen and (max-width: 767px){
+
+
+        header ul{
+        flex-wrap: nowrap;
+        }
+        header ul li{
+        margin-right: 10px;
+        }
+
+          /*popular-section*/
+    .popular-section img{
+        width: 130px;
+        height: 140px;
+        padding: 2%
+      }
+       
+       /*activity*/
+      
+
+    .bloc-footer{
+        height: auto;
+        flex-direction: column;
+      }
+
+    }
 }
