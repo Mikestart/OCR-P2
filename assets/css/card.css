@@ -1,28 +1,32 @@
 /*main*/
 
-.accommodation-popular-section{
+.accommodation_popular_section {
   display: flex;
   margin-top: 30px;
   margin-left: 30px;
+  margin-right: 20px;
+
 }
-.accommodation-marseille{
+
+.accommodation_marseille {
   background: #F2F2F2;
-  width: 65%;
-  height: 650px;
   border-radius: 20px;
   margin-right: 30px;
+  padding-bottom: 25px;
 }
-.accommodation-marseille h2{
+
+.accommodation_marseille h2 {
   margin: 40px 0px 40px 20px;
 }
-.cards{
+
+.cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 
-.accommodation-marseille img{
+.accommodation_marseille img {
   object-fit: cover;
   width: 100%;
   height: 120px;
@@ -31,11 +35,7 @@
   margin: 5px 0 0 5px;
 }
 
-#test {
-  width: 17%;
-}
-
-.accommodation-marseille .border-picture{
+.accommodation_marseille .border_picture {
 
   background: white;
   margin-bottom: 40px;
@@ -45,69 +45,65 @@
   padding-bottom: 10px;
 }
 
-.accommodation-popular-section .border-picture:hover{
+.accommodation_popular_section .border_picture:hover {
   transform: scale(1.07);
 }
 
-.picture-description{
+.picture_description {
   margin-left: 15px;
   line-height: 25px;
 }
 
-.accommodation-popular-section .star{
+.accommodation_popular_section .star {
   font-size: 90%;
 }
 
-.accommodation-popular-section .colorblue{
+.accommodation_popular_section .colorblue {
   color: #0065fc;
 }
-.accommodation-popular-section .colorgrey{
+
+.accommodation_popular_section .colorgrey {
   color: #d6d1d1;
 }
 
 /* .accommodation-marseille span {
   margin-left: 40px;
-  font-weight: 600;
+  font-weight:_600;
   cursor: pointer;
   font-size: 113%;
 } */
 
 /*popular*/
 
-.popular-section{
+.popular_section {
   background: #F2F2F2;
-  width: 30%;
   border-radius: 20px;
+  margin-right: 30px;
 }
 
-.popular-section .title{
+.popular_section .title {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 40px 0;
 }
 
-.fa-star{
-  font-size: 20px;
-}
-
-.popular-section .border-popular{
+.popular_section .border_popular {
   border: 2px solid white;
   border-radius: 20px;
   background-color: white;
-  height: 145px;
-  width: 290px;
   margin-bottom: 30px;
   display: flex;
-  margin-left: 40px;
+  margin-left: 23px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);
   transition: 0.8s;
 }
-.popular-section .border-popular:hover{
+
+.popular_section .border_popular:hover {
   transform: scale(1.07);
 }
 
-.popular-section img{
+.popular_section img {
   object-fit: cover;
   height: 140px;
   width: 110px;
@@ -116,44 +112,40 @@
 }
 
 
-.popular-section .description{
+.popular_section .description {
   margin-top: 10px;
 }
 
-.popular-section .star{
+.popular_section .star {
   margin-top: 25px;
 }
-.popular-section .colorblue{
+
+.popular_section .colorblue {
   color: #0065fc;
-  font-size: 80%;
 }
-.popular-section .colorgrey{
+
+.popular_section .colorgrey {
   color: #d6d1d1;
-  font-size: 80%;
 }
 
-.cards a {
-  width: 27%;
-}
-
-.popular-section {
+.popular_section {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  padding-right: 28px;
 }
 
-.popular-section article {
+.popular_section article {
   display: flex;
 }
 
 .cards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.currency {
-margin: 0;
-font-weight: bold;
+.cards a {
+  width: 30%;
 }
 
 .more {

@@ -1,18 +1,18 @@
-.filters-section{
+.filters_section {
   display: flex;
   margin: 20px 0 0 6px;
 }
 
-.filters-section h3{
+.filters_section h3 {
   margin: 15px 40px 0 30px;
   font-size: 20px;
 }
 
-.filters-section .all-filters{
+.filters_section .all_filters {
   display: flex;
 }
 
-.filters-section .filter{
+.filters_section .filter {
   display: flex;
   align-items: center;
   height: 50px;
@@ -24,11 +24,11 @@
   transition: 0.8s;
 }
 
-.filters-section .filter:hover{
+.filters_section .filter:hover {
   transform: scale(1.05);
 }
 
-.filters-section .icon{
+.filters_section .icon {
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -41,7 +41,7 @@
   margin-left: -4px;
 }
 
-.filters-section p{
+.filters_section p {
   font-weight: 600;
   font-size: 18px;
   display: flex;
@@ -49,6 +49,6 @@
   margin-left: 10px;
 }
 
-.filters-section p:hover{
+.filters_section p:hover {
   color: #0065fc;
 }

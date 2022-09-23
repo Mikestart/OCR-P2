@@ -22,11 +22,11 @@ header ul li {
   margin-right: 40px;
 }
 
-header .border-blue{
+header .border_blue{
   padding: 36px;
 }
 
-header .border-blue:hover{
+header .border_blue:hover{
   border-top: solid 3px #0065fc;
   color: #0065fc;
   padding: 36px;

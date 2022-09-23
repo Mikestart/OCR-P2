@@ -1,4 +1,4 @@
-.bloc-footer{
+.bloc_footer{
     width: 100%;
     background: #F2F2F2;
     height: 300px;
@@ -7,7 +7,7 @@
     margin-left: 0;
   }
   
-  .section-footer{
+  .section_footer{
     flex: 1;
     margin-left: 40px;
   }
