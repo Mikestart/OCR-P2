@@ -7,9 +7,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  * {
-    box-sizing: content-box;
-  }
+
 
   /* search */
   .tagline_search_bar input {
@@ -97,49 +95,60 @@
   }
 
   /* accommodation-section*/
-  .accommodation-marseille .cards {
+
+  /* .accommodation_marseille .cards {
     flex-direction: column;
     width: 100%;
   }
 
-  .accommodation-marseille span {
+  .accommodation_marseille span {
     margin-left: 10px;
-  }
+  } */
 
-  .accommodation-marseille {
+  /* .accommodation_marseille {
     width: 330%;
     margin-right: 0%;
     padding: 5%;
     height: auto;
     background-color: white
-  }
+  } */
 
-  .accommodation-marseille h2 {
+  /* .accommodation_marseille h2 {
     margin: 25px 0;
+  } */
+
+  /* .accommodation_marseille .border_picture {
+    width: 95%;
+    margin-bottom: 20px;
+  } */
+
+  .accommodation_marseille {
+    width: 106%;
+    margin-left: 0;
+    padding: 30px 5%;
+    border-radius: 0;
+    margin-top: 16px;
   }
 
-  .accommodation-marseille .border_picture {
-    width: 95%;
+  .accommodation_marseille img {
+    object-fit: cover;
+    width: 99%;
+  }
+
+  .accommodation_marseille .border_picture {
+    width: 100%;
     margin-bottom: 20px;
   }
 
-  .accommodation-marseille img {
-    object-fit: cover;
-  }
+  /* .accommodation_marseille .cards {
 
-  .accommodation-marseille .border_picture {
-    width: 100%;
-  }
-
-  .accommodation-marseille .cards {
-    justify-content: start;
-  }
+    justify-content: center;
+  } */
 
   /*popular section*/
 
   .popular_section {
-    flex: none;
-    width: 90%;
+    width: 106%;
     margin-left: 0;
     padding: 30px 5%;
     border-radius: 0;
@@ -183,6 +192,12 @@
   @media screen and (max-width: 767px) {
 
 
+    header .border_blue:hover {
+      border-top: none;
+      border-bottom: solid 3px #0065fc;
+      padding: 20px;
+    }
+
     header ul {
       flex-wrap: nowrap;
     }
@@ -198,23 +213,67 @@
       padding: 2%
     }
 
-    .cards {
+    /* .cards {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    } */
+
+    .cards a {
+      width: 95%;
     }
 
     .accommodation_marseille {
+      margin-right: 0px;
       margin-top: 25px;
       background-color: white;
+      padding: 0%;
     }
+
+    .accommodation_marseille .border_picture {
+      box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    }
+
     /*activity*/
 
+    .activity_section .activity_cards {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-around; */
+      height: auto;
+      width: auto;
+      /* margin-right: 10px; */
+      /* gap: 1%; */
+    }
 
-    .bloc-footer {
+    .activity_section .text_activity {
+     padding-left: 20px;
+     height: 10px;
+    }
 
+    .activity_section img {
+      object-fit: cover;
+      border-radius: 15px 15px 0 0;
+      width: -webkit-fill-available;
+      max-width: 101%;
+      height: 150px;
+    }
+
+    .activity_section .column .border_activity {
+      box-shadow:  0 0 10px rgb(0 0 0 / 10%);
+      margin-bottom: 30px;
+    }
+
+    .stretch {
+
+      height: 150px;
+      width: 305px;
+    }
+
+    .bloc_footer {
       height: auto;
       flex-direction: column;
+      padding: 2%;
     }
 
   }
