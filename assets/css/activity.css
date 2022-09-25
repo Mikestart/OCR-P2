@@ -34,7 +34,8 @@
   transform: scale(1.03);
 }
 
-.activity_section .text-activity {
+.activity_section .text_activity {
+  padding-left: 3px;
   margin-left: 20px;
   margin-top: 10px;
 }
